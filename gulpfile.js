@@ -35,11 +35,11 @@
             .src( 'app/*.html' )
             .pipe( htmlBuild({
                 js: htmlBuild.preprocess.js(function( block ) {
-                    block.write( 'PureJSImageGallery.min.js' );
+                    block.write( 'js/PureJSImageGallery.min.js' );
                     block.end();
                 }),
                 css: htmlBuild.preprocess.css(function( block ) {
-                    block.write( 'PureJSImageGallery.min.css' );
+                    block.write( 'css/PureJSImageGallery.min.css' );
                     block.end();
                 }),
                 remove: function( block ) {
