@@ -34,7 +34,7 @@ Every small picture should have a reference to a bigger picture, it should be on
 
 ```bash
 
-<img src="/images/thumbs/Lighthouse.jpg" data-image-url="/images/Lighthouse.jpg" alt="" class="gallery">
+<img src="/images/thumbs/linux.jpg" data-image-url="/images/linux.jpg" alt="" class="gallery">
 
 ```
 
