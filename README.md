@@ -30,7 +30,7 @@ gallery.init({
 
 ### Thumbnail configuration
 
-Every small picture should have a reference to a bigger picture, it should be on a date attribute.
+Every small picture should have a reference to a bigger picture, it should be on a data-attribute "data-image-url".
 
 ```bash
 
