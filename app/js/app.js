@@ -5,7 +5,10 @@
         var gallery = PureJSImageGallery();
 
         gallery.init({
-            imageClass: '.gallery'
+            imageClass: '.gallery',
+            nextButtonLabel: 'Next',
+            previousButtonLabel: 'Previous',
+            closeButtonLabel: 'Close'
         });
     };
 
