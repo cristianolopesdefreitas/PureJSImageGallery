@@ -52,7 +52,7 @@
 
     gulp.task( 'copy', function() {
         return gulp
-            .src([ 'app/js/app.js' ])
+            .src([ 'app/js/app.js', 'app/images/**/*.jpg' ])
             .pipe( copy( 'dist', { prefix: 1 }) );
     });
 
